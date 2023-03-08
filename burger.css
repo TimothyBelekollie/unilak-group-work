@@ -1,0 +1,21 @@
+
+#hamburger {
+	font-size: 2rem;
+	display: none;
+	cursor: pointer;
+}
+
+#hamburger:hover {
+	transform: scale(1.1);
+	transition: 0.3s ease-in;
+	color: rgb(84, 80, 80);
+}
+
+.backdrop {
+	display: none;
+}
+
+header .nav.appear,
+body .backdrop.appear {
+	transform: translateX(0);
+}
